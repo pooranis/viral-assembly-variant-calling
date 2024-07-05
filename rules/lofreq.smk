@@ -42,5 +42,5 @@ rule lofreq:
         lofreq call \
             -f {input} \
             -o {output} \
-            data/{wildcards.sample}/lofreq/{wildcards.sample}.lofreq.qual.bam
+            data/{wildcards.sample}/lofreq/{wildcards.sample}.lofreq.qual.bam >>{log} 2>>{log} 
       """
