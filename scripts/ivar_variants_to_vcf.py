@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+### from https://github.com/nf-core/viralrecon/blob/dev/bin/ivar_variants_to_vcf.py
+
 from email.charset import QP
 import os
 import sys
